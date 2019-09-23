@@ -17,8 +17,3 @@ Keterangan:<br>
 | PAY_1     |                 |   |
 | PAY_2     |                 |   |
 | PAY_3     |                 |   |
-<br>
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
