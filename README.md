@@ -18,15 +18,15 @@ End Point<nbsp>: <code>http://dzvlfi.pythonanywhere.com/predicts</code><br>
 Method<nbsp>: <code>.POST</code> <br>
 Headers: <code>"Content-Type": application/json</code><br>
 Body: `Raw`<br>
-Dengan format sebagai berikut
+Dengan format sebagai berikut<br>
 a. Prediksi 1 data<br>
-> [{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1}]<br>
+``[{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1}]``<br>
 b. Prediksi n data<br>
-> [{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1},<br>
-{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1},<br>
-{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1},<br>
-{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1},<br>
-...]<br>
+``[{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1},``<br>
+``{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1},``<br>
+``{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1},``<br>
+``{"LIMIT_BAL":30000, "EDUCATION":1, "SEX":1, "AGE":22, "PAY_1":1, "PAY_2":1, "PAY_3":1},``<br>
+``...]``<br>
 
 **Keterangan:**<br>
 LIMIT_BAL = Batas maksimum kredit (30000 berarti Rp 30000)<br>
